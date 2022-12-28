@@ -11,6 +11,6 @@ add_executable(mem ${SOURCE_EXE})	# Создает исполняемый фай
 
 add_subdirectory(libakrypt-0.x)				# Добавление подпроекта, указывается имя дирректории
 
-target_link_libraries(mem /home/maksim/Desktop/govno/libakrypt-0.x/libakrypt.so.0.9.10)
-target_link_libraries(mem /home/maksim/Desktop/govno/libakrypt-0.x/libakrypt-base.so.0.9.10)		# Линковка программы с библиотекой libakrypt.so.0.9.10
+target_link_libraries(mem */libakrypt-0.x/libakrypt.so.0.9.10)
+target_link_libraries(mem */libakrypt-0.x/libakrypt-base.so.0.9.10)		# Линковка программы с библиотекой libakrypt.so.0.9.10
 
